@@ -12,13 +12,24 @@
    action :start
  end
 
- cookbook_file '/etc/ntp.conf' do
+# cookbook_file '/etc/ntp.conf' do
+# source 'ntp.conf'
+#  owner 'root'
+#  group 'root'
+#  mode '0755'
+#  action :create
+# end
+
+ template '/etc/ntp.conf' do
    source 'ntp.conf'
    owner 'root'
    group 'root'
    mode '0755'
    action :create
  end
+
+ 
+ 
  
  
  

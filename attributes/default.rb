@@ -1,0 +1,1 @@
+default[veritis-ntp][ntpserv] = 'ntp-b.nist.gov'
