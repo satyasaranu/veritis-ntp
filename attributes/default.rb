@@ -1,1 +1,1 @@
-default[veritis-ntp][ntpserv] = 'ntp-b.nist.gov'
+default[ntpserv] = 'ntp-b.nist.gov'
