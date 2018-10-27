@@ -1,1 +1,1 @@
-default [vertis-ntp] [servers] = 'ntp-b.nist.gov'
+default[vertis-ntp][servers]='ntp-b.nist.gov'
