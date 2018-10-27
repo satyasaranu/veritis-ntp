@@ -10,6 +10,7 @@
 
  service 'ntpd' do
    action :start
+   subscribes :restart, 'template[/etc/ntp.conf]', :immediately
  end
 
 # cookbook_file '/etc/ntp.conf' do
