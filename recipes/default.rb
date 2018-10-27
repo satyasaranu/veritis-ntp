@@ -21,7 +21,7 @@
 # end
 
  template '/etc/ntp.conf' do
-   source 'ntp.conf'
+   source 'ntp.conf.erb'
    owner 'root'
    group 'root'
    mode '0755'
